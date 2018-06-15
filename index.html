@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navigation">
     <!-- body site code here -->
     <section id="home-section">
         <div class="container text-center">
@@ -23,7 +23,7 @@
         </div><!-- /.container -->
     </section><!-- /#home-section -->
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="500px" id="navigation">
         <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -49,6 +49,75 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav><!-- /.navbar -->
+
+		<section id="about-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores beatae temporibus facere sequi a iste ipsa. Suscipit dolores quidem voluptates, illo iusto, ad beatae deleniti! Veritatis in, magnam!</p>
+					</div>
+					<div class="col-md-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cumque quas laborum ut animi sequi, quibusdam vero inventore, suscipit, quos sapiente nisi nulla amet alias in tempora deserunt!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="menu-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div>
+								<!-- Nav tabs -->
+							  <ul class="nav nav-tabs" role="tablist">
+							    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+							    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+							    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+							    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+							  </ul>
+
+							  <!-- Tab panes -->
+							  <div class="tab-content">
+							    <div role="tabpanel" class="tab-pane active" id="home">
+										<div class="row">
+											<div class="col-md-6">
+												<ul>
+													<li>Item 1</li>
+													<li>Item 2</li>
+													<li>Item 3</li>
+													<li>Item4</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+							    <div role="tabpanel" class="tab-pane" id="profile">
+										<div role="tabpanel" class="tab-pane active" id="home">
+											<div class="row">
+												<div class="col-md-6">
+													<ul>
+														<li>Item 5</li>
+														<li>Item 6</li>
+														<li>Item 7</li>
+														<li>Item 8</li>
+													</ul>
+												</div>
+											</div>
+									</div>
+							    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+							    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+							  </div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+
+		</section>
+
 
     <!-- link all the scripts here -->
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
